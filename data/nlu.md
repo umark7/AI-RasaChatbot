@@ -27,6 +27,7 @@
 - time zone of [Warsaw](city)
 - tell me the time of [Budapest](city)
 - what is [Dublin](city) time zone?
+- API CALL: http://api.timezonedb.com/v2.1/list-time-zone
 
 ## intent:city_info
 - [London](city)
@@ -38,7 +39,9 @@
 - [Sofia](city)
 - [Madrid](city)
 - [Oslo](city)
-
+- API CALL: http://api.timezonedb.com/v2.1/get-time-zone
+## intent:convert_time
+- API CALL: http://api.timezonedb.com/v2.1/convert-time-zone
 ## intent:thanks
 - thank you
 - thanks
